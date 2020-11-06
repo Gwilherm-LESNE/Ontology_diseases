@@ -26,6 +26,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/Final_ontology#Has_therapy">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_7fe425ac_9f4a_4b78_b9b5_5c61850b5ca4"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/Final_ontology#Is_therapy_for"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_53c82d25_c551_4c4d_b5ac_a8fce669f084"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-21#Therapy"/>
     </owl:ObjectProperty>
@@ -37,6 +38,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/Final_ontology#Is_therapy_for">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_9c15d511_62b0_427c_b31f_b818c4536e0f"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-21#Therapy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_53c82d25_c551_4c4d_b5ac_a8fce669f084"/>
     </owl:ObjectProperty>
     
@@ -62,6 +64,7 @@
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Medicine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_53c82d25_c551_4c4d_b5ac_a8fce669f084"/>
         <rdfs:label xml:lang="fr">Is_medecine_for</rdfs:label>
     </owl:ObjectProperty>
@@ -88,6 +91,7 @@
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_660c8d06_f9bf_4394_b22b_50a2895349bc"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_502efcff_805e_48e3_9d6d_86c4b593196e"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_53c82d25_c551_4c4d_b5ac_a8fce669f084"/>
         <rdfs:label xml:lang="fr">Is_vaccine_for</rdfs:label>
     </owl:ObjectProperty>
@@ -99,6 +103,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_660c8d06_f9bf_4394_b22b_50a2895349bc">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_7fe425ac_9f4a_4b78_b9b5_5c61850b5ca4"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_53c82d25_c551_4c4d_b5ac_a8fce669f084"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_502efcff_805e_48e3_9d6d_86c4b593196e"/>
         <rdfs:label xml:lang="fr">Has_vaccine</rdfs:label>
@@ -112,6 +117,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_7fe425ac_9f4a_4b78_b9b5_5c61850b5ca4"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_fcae2bae_6810_41c1_9a63_9d647686aefe"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_53c82d25_c551_4c4d_b5ac_a8fce669f084"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_8f893139_0fa6_4e07_98a1_978d7ce6e877"/>
         <rdfs:label xml:lang="fr">Has_professional</rdfs:label>
@@ -125,6 +131,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_9c15d511_62b0_427c_b31f_b818c4536e0f"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_53c82d25_c551_4c4d_b5ac_a8fce669f084"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_2f44238d_e372_42d2_b377_a2566cc29ab9"/>
         <rdfs:label xml:lang="fr">Has_treatment</rdfs:label>
@@ -150,6 +157,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_2f44238d_e372_42d2_b377_a2566cc29ab9"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_53c82d25_c551_4c4d_b5ac_a8fce669f084"/>
         <rdfs:label xml:lang="fr">Is_treatment_for</rdfs:label>
     </owl:ObjectProperty>
@@ -161,6 +169,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_7fe425ac_9f4a_4b78_b9b5_5c61850b5ca4"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_53c82d25_c551_4c4d_b5ac_a8fce669f084"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Medicine"/>
         <rdfs:label xml:lang="fr">Has_medecine</rdfs:label>
@@ -186,6 +195,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_9c15d511_62b0_427c_b31f_b818c4536e0f"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_8f893139_0fa6_4e07_98a1_978d7ce6e877"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_53c82d25_c551_4c4d_b5ac_a8fce669f084"/>
         <rdfs:label xml:lang="fr">Is_professionnal_for</rdfs:label>
     </owl:ObjectProperty>
@@ -355,6 +365,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#backache_symptom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#back_symptom"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Painkiller_medicament"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -387,6 +403,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#breath_symptom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-18#Bronchodilator_medicament"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -452,6 +474,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#constipation_symptom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Laxative_medicament"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -460,6 +488,24 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#cough_symptom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#herbal_medicine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-21#Analgesic_medicament"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-18#Analgesic_medicament"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -476,6 +522,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#difficulty_sleeping_symptom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#sleeping_symptom"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#herbal_medicine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -582,6 +634,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#fever_symptom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#Symptom"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Painkiller_medicament"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -623,6 +681,12 @@
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#headache_symptom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#head_symptom"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#neurological_symptom"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Painkiller_medicament"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -678,7 +742,13 @@
     <!-- http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#lack_of_energy_symptom -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#lack_of_energy_symptom">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#energy_symptom"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#edema_symptom"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-21#Vitamin_medicament"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -983,6 +1053,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#weight_loss_symptom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-17#weight_symptom"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_b01d9975_cdf7_4e14_9395_ec23fe6ad1aa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#herbal_medicine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
