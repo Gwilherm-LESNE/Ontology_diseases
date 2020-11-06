@@ -215,8 +215,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-12#Alternative_professionnel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_8f893139_0fa6_4e07_98a1_978d7ce6e877"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-12#Conventional_professionnel"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Auxiliaries"/>
     </owl:Class>
     
 
@@ -233,7 +231,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-12#Conventional_professionnel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/9/Ontology_AI#OWLClass_8f893139_0fa6_4e07_98a1_978d7ce6e877"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Auxiliaries"/>
     </owl:Class>
     
 
@@ -1178,7 +1175,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#ibuprofeno_medicament">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Antipyretics_medicament"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#paracetamol_medicament"/>
     </owl:Class>
     
 
@@ -3787,14 +3783,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_6a25b3b7_605e_48f3_b8f7_f91ff9b8c0b5"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Urologist"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_0d17e255_e783_4f36_931c_70a8441f9f97"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_2c315b3a_591d_491e_a83a_15a6237fd7ec"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_0d17e255_e783_4f36_931c_70a8441f9f97"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_2c315b3a_591d_491e_a83a_15a6237fd7ec"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_6a25b3b7_605e_48f3_b8f7_f91ff9b8c0b5"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Urologist"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="fr">Prostate_cancer</rdfs:label>
@@ -4278,14 +4274,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_6a25b3b7_605e_48f3_b8f7_f91ff9b8c0b5"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/Final_ontology#Endocrinologist"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_0d17e255_e783_4f36_931c_70a8441f9f97"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_59f1d9ef_8dc7_49b0_8e8a_1b096b0e7552"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_0d17e255_e783_4f36_931c_70a8441f9f97"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_59f1d9ef_8dc7_49b0_8e8a_1b096b0e7552"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLObjectProperty_6a25b3b7_605e_48f3_b8f7_f91ff9b8c0b5"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rog/ontologies/2020/10/Final_ontology#Endocrinologist"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="fr">Thyroid_cancer</rdfs:label>
@@ -6899,109 +6895,6 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-12#Acupuncturist"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-12#Chiropractor"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-12#Herbalist"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-12#Homeopath"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-12#General_practitioner"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-12#Phramacologue"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-12#Surgeon"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Intern"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Midwife"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Neurologist"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Pediatrician"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Podiatrist"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Psychiatrist"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Pulmonologist"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Radiologist"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Rhumato"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Urologist"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Anti-Infective_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Anti-acid_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Anti-allergenic_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Anti-diarrheal_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Anti-inflammatory_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Antipyretics_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Antitussives_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Laxative_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Mucolytics_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#Painkiller_medicament"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#antibiotics_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#antifungals_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#antiparasitic_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#antivirals_medicament"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#aspirin_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#ibuprofen_medicament"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/nom/ontologies/2020/10/untitled-ontology-20#paracetamol_medicament"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/Final_ontology#Endocrinologist"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/Final_ontology#Gastroenterologist"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/Final_ontology#Oncologist"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_414ff7a9_5cf5_43dc_a68a_f8c1849dfeac"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_888e37cc_a380_4483_bd35_5a25e056fa2a"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_ad9e7fd7_dece_45b0_87c7_ddb113dfade4"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_cb0baffa_0dc6_4e10_8bc9_39d91f4460f3"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_d75c0cac_5e54_45f7_9af5_4ea8b201a502"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_df2243a4_8f27_46cd_89c4_f1c2074fc1ca"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_eb8bfeac_d6a5_4b11_86dd_1e7f12a332b1"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_ef745d3a_19c6_4049_acc5_cc023c917468"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_fb9ae8a5_3965_49e6_9817_52e6f4c9a126"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_feb70b4f_133d_4f1a_802a_f59fe090cc99"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_0232e4bb_e5d3_4530_b1f1_170e71e2d20e"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_24b9c923_3ce6_4750_aab4_80acbb006675"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_316709e3_b647_4961_ac5c_b8514bdc10b9"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_31b6af79_30c2_4355_ac10_2bdd9f00353e"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_464adc03_44be_45e2_a7a0_af539d473aa5"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_46b6f8b0_1a8e_4efb_8dcc_e2f9e8379755"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_48197487_4cef_464c_963e_11fc3e111f71"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_495cee5f_d7fd_4d82_916e_b27824e03437"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_4e959359_d3f2_4b69_b2bf_b3c6d940f2d8"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_549fc15f_79cd_4521_b1c4_55aab02700de"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_6433a2d0_e1db_4540_a603_4fd1038aa1c4"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_6a957f8a_6d26_4720_bace_bdb6a0d80ff6"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_70c2317d_3448_46cb_a055_b0d1dba17282"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_762c5b04_116b_48e1_8085_091d78281546"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_830a6189_1f57_46f1_8fa7_09cce8530076"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_83d9213b_3bb7_4b7a_a472_d612348ed9b7"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_9eca0edc_7e7e_4ca0_a9c5_12b39e206448"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_a818fba2_b36f_4eea_9766_b8d322ef7718"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_b21d6ac1_e35b_47ee_b3b8_1d41e7a7aff1"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_c589eddb_6c5d_4430_bd38_d72ccd5c9faf"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_f4483731_4810_47d4_9656_8f4a2e1e7902"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_6689203c_8a7b_4ae7_824b_05a0654cfbc3"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_7f461116_dd17_4c40_8263_f836fa7a25e1"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-11#OWLClass_fdba1ede_ed4c_43bc_9481_13eeea8c605c"/>
@@ -7030,22 +6923,6 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_e2fb8aed_62bd_4896_9656_46f045c0749d"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_ebed112f_4142_4abb_ad9e_d4a415044143"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_eed54c8e_1b12_46e7_82ed_3f28c0e6b7d3"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Caregivers"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Childcare_auxiliaries"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#Nurse"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#chiropodists"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#dieticians"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#ergotherapists"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#masseurs-kinetherapists"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#opticians"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#prosthetists"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#psychomotor_therapists"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#speech_therapists"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -7089,6 +6966,22 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_ebed112f_4142_4abb_ad9e_d4a415044143"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_f83e3b4c_b144_457d_b6ef_15902b665b89"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#specialized_lotion"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_17a7f6f9_a1a1_49bb_a1ad_d6a2b7301d90"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_414ff7a9_5cf5_43dc_a68a_f8c1849dfeac"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_888e37cc_a380_4483_bd35_5a25e056fa2a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_ad9e7fd7_dece_45b0_87c7_ddb113dfade4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_cb0baffa_0dc6_4e10_8bc9_39d91f4460f3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_d75c0cac_5e54_45f7_9af5_4ea8b201a502"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_df2243a4_8f27_46cd_89c4_f1c2074fc1ca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_eb8bfeac_d6a5_4b11_86dd_1e7f12a332b1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_ef745d3a_19c6_4049_acc5_cc023c917468"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_fb9ae8a5_3965_49e6_9817_52e6f4c9a126"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rog/ontologies/2020/10/untitled-ontology-8#OWLClass_feb70b4f_133d_4f1a_802a_f59fe090cc99"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
